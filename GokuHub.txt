@@ -14,7 +14,7 @@ local Window =
     Fluent:CreateWindow(
     {
         Title = "Goku Hub",
-        SubTitle = "Thọ Hihi",
+        SubTitle = "By Thọ Hihi",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
         Acrylic = false,
@@ -102,7 +102,7 @@ do
     game:GetService("StarterGui"):SetCore(
         "SendNotification",
         {
-            Title = "Phat Crystal Hub",
+            Title = "Goku Hub",
             Text = "Loaded Success",
             Duration = 10
         }
