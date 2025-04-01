@@ -4162,7 +4162,7 @@ spawn(function()
                         game.StarterGui:SetCore("SendNotification", {
                             Title = "Notification",
                             Text = "Not Have Enough Material",
-                            Icon = "http://www.roblox.com/asset/?id=",
+                            Icon = "http://www.roblox.com/asset/?id=92984294234372",
                             Duration = 2.5
                         })
                     else
@@ -8052,7 +8052,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0.015, 0, 0.02, 20)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://100310827714719"
+Button.Image = "rbxassetid://92984294234372"
 local UICorner = Instance.new("UICorner")
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Button
