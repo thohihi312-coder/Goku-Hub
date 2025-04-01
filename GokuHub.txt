@@ -1330,7 +1330,7 @@ end
 print("--[[Loaded UI]]--")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "Goku Hib",
+    Title = "Goku Hub",
     SubTitle = "By Thọ Hihi",
     TabWidth = 155,
     Size = UDim2.fromOffset(555, 320),
