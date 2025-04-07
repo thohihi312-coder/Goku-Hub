@@ -175,8 +175,8 @@ hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respawn), function() end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "Vxeze Hub-Blox Fruit (English)",
-    SubTitle="| Dex Skibidi", 
+    Title = "Goku Hub (English)",
+    SubTitle="By Tho Hihi", 
     TabWidth=155, 
     Theme="Darker",
     Acrylic=false,
@@ -2357,28 +2357,28 @@ task.defer(function()
 end)
 wait(1.0)
 Tabs.Info:AddButton({
-        Title="Vxeze Hub",
+        Title="Goku Hub",
         Description="Discord",
         Callback=function()
-            setclipboard(tostring("https://discord.gg/vxezehub")) 
+            setclipboard(tostring("https://discord.gg/UqaqQYF4")) 
         end
 })
 Tabs.Info:AddButton({
-    Title="Dex Skibidi",
+    Title="Tho Hihi",
     Description="Youtube",
     Callback=function()
-        setclipboard(tostring("https://www.youtube.com/@dex_bear"))
+        setclipboard(tostring("https://youtube.com/@thohihidz?si=VH4fEbGgkOpV8pfk"))
     end
 })
 Tabs.Info:AddButton({
-    Title="Thinh Tran(Dex)",
+    Title="Le Duc Tho",
     Description="Facebook",
     Callback=function()
-        setclipboard(tostring("https://www.facebook.com/profile.php?id=100072575529367"))
+        setclipboard(tostring("https://www.facebook.com/share/1BhxNz3bPL/"))
     end
 })
 Tabs.Info:AddParagraph({
-    Title="Dex Skibidi",
+    Title="Tho Hihi",
     Content="Credits"
 })
 local executorName
@@ -2714,7 +2714,7 @@ spawn(function()
                 local CFrameTarget = CFrame.new(BushPosition)
                 Tween2(CFrameTarget)
                 Fluent:Notify({
-                    Title = "Vxeze",
+                    Title = "Goku",
                     Content = "Find Berry: " .. tostring(BerryName),
                     Duration = 10
                 })
@@ -4109,7 +4109,7 @@ local function createToggle(title, toggleKey, islands, islandName, notification)
             _G[toggleKey] = false
             if not notified then
                 Fluent:Notify({
-                    Title = "Vxeze",
+                    Title = "Goku",
                     Content = notification,
                     Duration = 10
                 })
@@ -9329,7 +9329,7 @@ local notificationCooldown = 10
 local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Vxeze Hub",
+        Title = "Goku Hub",
         Text = "Successfully",
         Duration = 1
     })
